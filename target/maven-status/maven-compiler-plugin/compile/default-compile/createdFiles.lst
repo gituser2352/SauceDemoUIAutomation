@@ -1,0 +1,10 @@
+com\qa\util\ExcelReader.class
+com\pages\KreditVergleichPage.class
+com\qa\factory\DriverFactory.class
+com\qa\util\ConfigReader.class
+com\qa\util\ElementUtil.class
+com\pages\LoginPage.class
+com\qa\util\Constants.class
+sauce\base\BaseClass.class
+com\pages\CheckoutPage.class
+com\pages\AddtoCartPage.class

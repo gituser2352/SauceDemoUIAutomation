@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: parallel.ParallelRun
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 23.043 s <<< FAILURE! - in parallel.ParallelRun
+runScenario(parallel.ParallelRun)  Time elapsed: 4.49 s  <<< FAILURE!
+java.lang.AssertionError: Detected same images for al products error for login with problem User expected [true] but found [false]
+

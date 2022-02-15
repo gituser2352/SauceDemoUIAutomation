@@ -1,0 +1,6 @@
+parallel\CheckoutPageSteps.class
+testrunners\MyTestRunner.class
+parallel\AddtoCartPageSteps.class
+parallel\LoginPageSteps.class
+parallel\ParallelRun.class
+parallel\ApplicationHooks.class

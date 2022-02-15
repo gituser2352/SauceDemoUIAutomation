@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18090" started-at="2022-02-15T12:13:02 CET" finished-at="2022-02-15T12:13:20 CET">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@68ceda24]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="18090" started-at="2022-02-15T12:13:02 CET" finished-at="2022-02-15T12:13:20 CET">
+      <class name="parallel.ParallelRun">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:parallel.ParallelRun@68ceda24]" name="setUpClass" is-config="true" duration-ms="861" started-at="2022-02-15T12:13:02 CET" finished-at="2022-02-15T12:13:02 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@68ceda24]" name="runScenario" duration-ms="8849" started-at="2022-02-15T12:13:02 CET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-15T12:13:11 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate login for Invalid user name and or password credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sauce Demo Login Feature Validation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@68ceda24]" name="runScenario" duration-ms="8910" started-at="2022-02-15T12:13:02 CET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-15T12:13:11 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate error for login with Problem user but with valid username and password credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sauce Demo Login Feature Validation]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Detected same images for al products error for login with problem User expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Detected same images for al products error for login with problem User expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at parallel.LoginPageSteps.user_login_is_successful_but_found_problems_after_login_with_Problem_user_credentials_for_scenario(LoginPageSteps.java:66)
+at ✽.User Login is successful but found problems after login with Problem user credentials for scenario "Problem User"(file:///E:/MobileAutomation/seleniumworkspace/SauceUIPOMDemo/src/test/resources/parallel/Login.feature:29)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@68ceda24]" name="runScenario" duration-ms="8649" started-at="2022-02-15T12:13:02 CET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-15T12:13:11 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate login for Valid user name and password credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sauce Demo Login Feature Validation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@68ceda24]" name="runScenario" duration-ms="13951" started-at="2022-02-15T12:13:02 CET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-15T12:13:16 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to Checkout and place order- Place order E2E flow"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checkout and place order Feature Validation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@68ceda24]" name="runScenario" duration-ms="8789" started-at="2022-02-15T12:13:02 CET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-15T12:13:11 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate login for Invalid user name and or password credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sauce Demo Login Feature Validation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@68ceda24]" name="runScenario" duration-ms="15922" started-at="2022-02-15T12:13:02 CET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-15T12:13:18 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to navigate to secific product page and add product to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Add to Cart Feature Validation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@68ceda24]" name="runScenario" duration-ms="8789" started-at="2022-02-15T12:13:02 CET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-15T12:13:11 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate login for Invalid user name and or password credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sauce Demo Login Feature Validation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@68ceda24]" name="runScenario" duration-ms="13246" started-at="2022-02-15T12:13:02 CET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-15T12:13:16 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to add multiple items to cart and verify cart list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Add to Cart Feature Validation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:parallel.ParallelRun@68ceda24]" name="tearDownClass" is-config="true" duration-ms="1271" started-at="2022-02-15T12:13:18 CET" finished-at="2022-02-15T12:13:20 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- parallel.ParallelRun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
